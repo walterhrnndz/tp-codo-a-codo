@@ -178,3 +178,70 @@
     font-size: 10px;
   }
 }
+
+/* Form Ticket */
+
+.modal-content {
+  width: 700px;
+}
+
+.contenedorFormComprar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedorCategorias {
+  display: flex;
+  justify-content: center;
+  color: black;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.cuadros {
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.cuadros span {
+  font-size: 10px;
+}
+
+.estudiante {
+  border: solid 2px #5ba5fa;
+}
+
+.trainee {
+  border: solid 2px #17a2b8;
+}
+
+.junior {
+  border: solid 2px #ffc107;
+}
+
+.formulario {
+  max-width: 650px;
+  width: 100%;
+}
+
+.info-alert {
+  max-width: 650px;
+  width: 100%;
+}
+
+.botones-tickets {
+  max-width: 650px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
